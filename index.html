@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Say Yes to Heaven</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+</head>
+<body style="height:auto; width: auto; background-color:PINK; max-width: 100%; max-height: 600px;">
+    <h1 style="color: white; text-align: center; margin-top: 11%; font-size: xx-large; font-family: lemon;">֒✧˚🌷͙  DO YOU WANNA GO OUT WITH ME 🌷͙֒✧˚</h1>
+     <img id="image" src="HIIBEAR.gif" alt="bear" style="height: 20%; width: 20%; margin-left: 42%;"><br>
+     <div style="position: relative; margin-left: 42%; margin-top: 13px;">
+         <button onclick="yesClicked()" style="  font-size:20px;
+         font-family:lemon;
+         width:100px;
+         height:50px;
+         border-width:0px;
+         color:#ffffff;
+         background-color: rgb(209, 225, 206);
+         border-color:pink;
+         font-weight:bold;
+         border-top-left-radius:16px;
+         border-top-right-radius:16px;
+         border-bottom-left-radius:16px;
+         border-bottom-right-radius:16px;
+         box-shadow: 0px 1px 10px 10px rgb(249, 166, 180);
+         text-shadow: -4px -2px 3px #5b6178;">YES</button>
+    <button 
+       class="noButton"
+       style="  font-size:20px;
+       position: absolute;
+       margin-left: 150px;
+       font-family:lemon;
+       width:100px;
+       height:50px;
+       border-width:0px;
+       color:#ffffff;
+       background-color: rgb(209, 225, 206);
+       border-color:pink;
+       font-weight:bold;
+       border-top-left-radius:16px;
+       border-top-right-radius:16px;
+       border-bottom-left-radius:16px;
+       border-bottom-right-radius:16px;
+       box-shadow: 0px 1px 10px 10px rgb(249, 166, 180) ;
+       text-shadow: -4px -2px 3px #5b6178;
+       left:0px;
+       top:0px;">NO</button> 
+    </div>
+
+
+    <script>
+
+      function yesClicked(){
+      document.querySelector('h1').innerHTML = "Yeeyyyyyy finallyyyy 💖";
+      let imge = document.getElementById('image');
+      imge.src = "DANCEBB.gif";
+      imge.style.height = "200px";
+      imge.style.width = "200px";
+      imge.style.margin = "0% 0% 0% 43%";
+
+
+  }
+  const nobtn = document.querySelectorAll(button.noButton);
+  nobtn.addEventListener("mouseover", moveHover);
+
+  function moveHover(){
+  const i= Math.floor(Math.random()*500)+ 1;
+  const j= Math.floor(Math.random()*500)+ 1;
+
+  nobtn.style.left = i+px;
+  nobtn.style.top = j+px;
+
+  }
+    </script>
+</body>
+</html>
